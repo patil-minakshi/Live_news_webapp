@@ -1,26 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: "Georgia";
-    margin: 0;
-    padding: 0;
     height: 100vh;
-   color: black;
-   
+    color: black;
+
 }
-  #news-container {
+
+#news-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   
+
     padding: 20px;
 }
+
 .News-card {
     width: 300px;
-    margin: 10px;
+    margin: 5px;
     padding: 15px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -31,16 +31,29 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.News-card :hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
 .News-card img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
 }
-.right_panne{
-    background-color: #ff0016;
-    box-shadow: 0 4PX 8PX rgba(0, 0, 0, 0.2);
-    margin: 0 21px 0 0;
+
+.right_pannel {
+    width: 220px;
+    height: min-content;
+    padding: 7px;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+    box-shadow: 0 5PX 8PX rgba(0, 0, 0.2, 0.2);
+    margin: 0 25px 0 0;
 }
+
 .Read-more {
     width: 196px;
     text-align: center;
@@ -54,42 +67,129 @@ body {
     border-radius: 4px;
     border: 1px solid;
     padding: 4px;
-   
+
 }
-.para{
-    width: 300px;
+
+.para {
+    width: 246px;
     height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0 0 16px;
-    
+    margin: 30px 0 0 30px;
+
 }
-.para p{
+
+.para p {
     font-size: 1.3em;
     line-height: 16px;
     padding: 7px 0;
     color: #ff0016;
     word-wrap: break-word;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 97%;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     display: inline-flex;
+    padding: 20px 0;
 }
-.line{
+
+.line {
     width: 100%;
     height: 0px;
     border: 1px #3C3030 solid;
 }
-.footer_container{
+
+.footer_container {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 8px;
     display: inline-flex;
-    margin-bottom: 13px;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-image: url(background_img.jpg);
+    background-size: cover;
+    height: 100px;
+    position: sticky;
+}
+
+.channel_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 74px;
+    gap: 3px;
+    color: black;
+}
+
+.firstsec {
+    font-size: 70px;
+    font-weight: 400
+}
+
+.second_sec {
+    background: #9b1c1c;
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+
+}
+
+.org {
+    font-size: 70px;
+    font-weight: 400;
+    font-family: Iowan Old Style;
+}
+
+.search_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input {
+    width: 75%;
+    font-size: 15px;
+    border-radius: 11px;
+    border-radius: 9px;
+    padding: 7px 10px;
+    border: black solid 1px;
+}
+
+#go_btn {
+    border-radius: 9px;
+    height: 33px;
+    width: 30px;
+    cursor: pointer;
+    padding: 8px 2px;
+    background-color: white;
+    border: black solid 1px;
+}
+
+.below_line {
+    border: 0.2px solid #ff0016;
+}
+
+.last {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inria Serif;
+    word-wrap: break-word;
+    color: #3C3030;
 }
