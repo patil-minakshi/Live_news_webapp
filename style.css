@@ -14,7 +14,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
     padding: 20px;
 }
 
@@ -30,11 +29,12 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+     
 }
 
 .News-card :hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(1, 0, 0, 0.1);
 
 }
 
@@ -55,33 +55,42 @@ body {
 }
 
 .Read-more {
-    width: 196px;
+    width: 177px;
     text-align: center;
-    margin: auto 50px;
-    height: 26px;
     font-size: 12;
-    font-size: small;
     font-family: sans-serif;
     font-weight: 500;
     color: #b13030;
     border-radius: 4px;
     border: 1px solid;
-    padding: 4px;
-
+    padding: 7px  6px ;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    margin: 10px;
 }
 
 .para {
     width: 246px;
     height: 42px;
     margin: 30px 0 0 30px;
-
+    width: 270px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 25px;
+    background: linear-gradient(85.5deg, rgb(255, 255, 255) 1%, rgb(235, 158, 98) 24.6%, rgb(177, 10, 10) 60.7%, rgb(0, 0, 0) 100%);
+    border-radius: 10px;
 }
+
+
 
 .para p {
     font-size: 1.3em;
     line-height: 16px;
-    padding: 7px 0;
-    color: #ff0016;
+    padding: 10px 8px;
+    color: white;
     word-wrap: break-word;
 }
 
@@ -113,11 +122,12 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    min-width: 80%;
     align-items: center;
-    background-image: url(background_img.jpg);
+    background:linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(247, 30, 30) 100.3%);
     background-size: cover;
-    height: 100px;
+    height: 125px;
+    color: white;
     position: sticky;
 }
 
@@ -128,16 +138,18 @@ body {
     width: 540px;
     height: 74px;
     gap: 3px;
-    color: black;
+    color: white;
 }
 
 .firstsec {
     font-size: 70px;
-    font-weight: 400
+    font-weight: 400;
+    font-family: Iowan Old Style;
+
 }
 
 .second_sec {
-    background: #9b1c1c;
+    background: #ff0000;
     border-radius: 9999px;
     width: 48px;
     height: 48px;
@@ -193,3 +205,17 @@ body {
     word-wrap: break-word;
     color: #3C3030;
 }
+.Rigth-arrow {
+    width: 200px
+}
+  .line {
+    border:  1px solid  #ad1010;
+  }
+  
+  a {
+    color:  #ad1010;
+    
+  }
+  a:hover{
+    color: #ff0000;
+  }
